@@ -53,7 +53,7 @@ jobs:
         run: npm run test
 
       - name: Build
-        run: npm run build -- --base=/about_jaden/
+        run: npm run build -- --base=/jadenPP/
 
       - name: Add SPA fallback
         if: github.event_name == 'push'
